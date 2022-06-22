@@ -1,3 +1,66 @@
+
 body {
-  background-color: blue;
+  margin: 0px;
+  text-align:center;
+  font-family: 'Merriweather', serif;
 }
+
+
+h1{
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Sacramento',cursive;
+
+}
+
+h2,h3 {
+  font-family: 'Montserrat',sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+.top-container {
+  background-color: lightblue;
+}
+
+.top-cloud {
+  position: relative;
+  padding: 10px;
+  left:12%;
+}
+
+.bottom-cloud {
+  position:absolute;
+}
+
+span {
+  text-decoration: underline;
+}
+
+
+/*
+
+Each html element is a block
+Some are displayed by blocks as default
+Others as inline as defeault
+
+Display:
+    Block: Means that the element is a block taking the whole line
+    Inline: Means that the element takes only the spaced needed, cant change dimensions
+    Inline-block: An element that can change dimensions and takes only the space needed
+    None: Element is not visible or takes display space anymore, like it isn't there
+
+Position:
+    Static: Is the default position the elements have and how they flow with the Others
+    Relative: Moves the element by (top,right,left,bottom) attributes in relation to it's previous position, like giving it a margin
+    Absolute: Moves the element relatively the the parent element
+    Fixed: The poisition of the object stays the same (ex: if we scroll the page, useful for footers)
+
+Centering elements:
+    text-align:center property
+    margin:0 auto 0 auto;
+
+
+ */
