@@ -13,6 +13,10 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 h3 {
   font-size: 1.5rem;
 }
@@ -60,4 +64,35 @@ h3 {
 
 p {
   color: #8f8f8f;
+}
+
+#testimonials {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 20%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom:3%;
+  padding-right: 1%
+}
+
+.press-logo {
+  margin:0 1% 1% 0;
+  width: 15%;
+  margin
+}
+
+.test-p {
+  display: inline-block;
+  width: 50%;
+  border-radius: 1px;
 }
