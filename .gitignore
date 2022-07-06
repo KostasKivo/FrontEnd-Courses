@@ -1,2 +1,2 @@
-expressServer/node_modules
-expressServer/package-lock.json
+*package-lock.json
+*node_modules
